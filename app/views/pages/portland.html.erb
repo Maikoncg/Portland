@@ -1,0 +1,41 @@
+<div class="box-menu">
+	<div class="center">
+		<div class="menu-wrapper">
+			<%= image_tag "menu-icon.png" %>
+		</div>
+		<div class="logo-wrapper">
+			<%= image_tag "portland.png" %>
+		</div>
+		<div class="menu-items-wrapper">
+			<%= link_to 'Home', home_path %>
+			<%= link_to 'Devices', devices_path %>
+			<%= link_to 'Delivery & Payment', delivery_payment_path %>
+			<%= link_to 'Guarantee', guarantee_path %>
+			<%= link_to 'About Us', about_us_path %>
+		</div>
+		<div class="cart-wrapper">
+			<%= image_tag "cart-icon.png" %>
+			<h3> CART </h3>
+		</div>
+		<div class="signin-wrapper">
+			<button class="signin-button">sign in</button>
+		</div>
+	</div>
+</div>
+
+<hr class="hr-sub-menu">
+
+<div class="box-sub-menu">
+	<div class="center">
+		<div class="sub-menu">
+			<%= link_to 'top sales' %>
+			<%= link_to 'brand focus' %>
+			<%= link_to 'hi-tech' %>
+			<%= link_to 'best sellers' %>
+			<%= link_to 'projects' %>
+			<%= link_to 'support' %>
+			<%= image_tag "search-icon.png" %>
+			<input type="text" name="search" placeholder="I'm looking for ...">
+		</div>
+	</div>
+</div>

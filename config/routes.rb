@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  get 'home', to: 'pages#home'
+  get 'devices', to: 'pages#devices'
+  get 'delivery-payment', to: 'pages#delivery_and_payment'
+  get 'guarantee', to: 'pages#guarantee'
+  get 'about_us', to: 'pages#aboutus'
+
+  root to: 'pages#portland' 
+
 end
